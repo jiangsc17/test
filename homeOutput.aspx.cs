@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace HelloWorld
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class homeOutput : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("homeOutput.aspx", false);
+            Response.Write("<script language='javascript'>alert('欢迎学习本门课程——数据分析高级应用')</script>");
         }
     }
 }
