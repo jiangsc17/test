@@ -11,7 +11,7 @@ namespace HelloWorld
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.Title = "这是我的首个动态网页";
+            this.Title = "test";
             Response.Write("Hello World");
         }
     }
