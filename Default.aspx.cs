@@ -11,8 +11,8 @@ namespace HelloWorld
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.Title = "This is my first dynamic webpage.";
-            Response.Write("<br>Hello World");
+            this.Title = "这是我的首个动态网页";
+            Response.Write("Hello World");
         }
     }
 }
