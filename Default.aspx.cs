@@ -11,7 +11,9 @@ namespace HelloWorld
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("homeOutput.aspx", false);
+            char a = 'a';
+            int b = a + 1;
+            Response.Write(a+"<br>"+b);
         }
     }
 }
