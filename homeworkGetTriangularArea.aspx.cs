@@ -99,4 +99,4 @@ namespace HelloWorld
             Response.Write(right_msg_1 + tri_type + right_msg_2 + area);
         }
     }
-}
+} 
