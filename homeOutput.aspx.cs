@@ -11,7 +11,8 @@ namespace HelloWorld
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Write("<script language='javascript'>alert('欢迎学习本门课程——数据分析高级应用')</script>");
+            this.Title = "TEST";
+            Response.Write("<script language='javascript'>alert('欢迎使用三角形面积求解工具')</script>");
         }
     }
 }
