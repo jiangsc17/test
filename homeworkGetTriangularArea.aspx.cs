@@ -31,14 +31,13 @@ namespace HelloWorld
         {
             //初始化
             double m = 0;
-            string error_msg = "你输入的三条边不能构成1个三角形";
-            string right_msg_1 = "你输入的三条边组成了一个";
-            string right_msg_2 = "三角形，它的面积是";
-            string tri_type = "";
-            //读取输入并转换类型
             double a = double.Parse(TextBox_1.Text);
             double b = double.Parse(TextBox_2.Text);
             double c = double.Parse(TextBox_3.Text);
+            string error_msg = "你输入的三条边不能构成1个三角形";
+            string right_msg_1 = "你输入的三条边组成了一个";
+            string tri_type = "";
+            string right_msg_2 = "三角形，它的面积是";
             //排序
             if (a > b) { m = b; b = a; a = m; }
             if (a > c) { m = c; c = a; a = m; }
